@@ -9,11 +9,11 @@ const ReactionSchema = new Schema({
   reactionBody: {
     type: String,
     required: "Please enter your reaction",
-    maxLength: 280,
+    maxLength: 200,
   },
   username: {
     type: String,
-    required: "You need a username!",
+    required: "You need a username",
   },
   createdAt: {
     type: Date,
